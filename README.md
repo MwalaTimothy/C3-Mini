@@ -1,1 +1,1 @@
-# C3-Mini Environmental Monitoring
+# C3-Mini vital and Environmental Monitoring
