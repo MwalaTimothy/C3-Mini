@@ -53,7 +53,7 @@ If you have any questions, suggestions, or issues, please feel free to contact m
 
 Happy hacking with your C3-mini environmental sensor!
 
-
+## IMPORTANT SITES
 - Check out https://chipglobe-dev.web.app/
 - Buy from https://www.chipglobe.shop/en
 
