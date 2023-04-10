@@ -11,7 +11,7 @@ To get started with the C3-mini environmental sensor, follow these steps:
 You will need the following components to build the environmental sensor:
 
 - C3-mini microcontroller board
-- Environmental sensor module (e.g., DHT11, DHT22, BME280, etc.)
+- Environmental sensor module (e.g., DHT11, DHT22, SHT30, etc.)
 - A dual base adapter or a TRIPLER adapter
 - 0.66 OLED DISPLAY
 - USB cable for programming and power supply
