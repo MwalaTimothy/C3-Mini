@@ -52,3 +52,11 @@ We would like to thank the makers of the C3-mini and the environmental sensor mo
 If you have any questions, suggestions, or issues, please feel free to contact me  at mwalatimo@gmail.com or +254715326414. I welcome your feedback and contributions to improve this repository.
 
 Happy hacking with your C3-mini environmental sensor!
+
+
+- Check out https://chipglobe-dev.web.app/
+- Buy from https://www.chipglobe.shop/en
+
+## For internship opportunities, trainings and industrial partnerships, visit our website
+-  www.chipglobe.com
+-  www.carenuity.com
