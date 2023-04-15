@@ -40,7 +40,6 @@ If you would like to contribute to this repository, please follow the guidelines
 Make your changes and test them thoroughly.
 Submit a pull request with a clear description of your changes and their purpose.
 
-If you find these projects useful and would like to support my commitment to creating open source hardware and software, you can kindly make a contribution via PayPal to mwalatimo@gmail.com. Your support is greatly appreciated 🤗💕!
 
 ## License
 This repository is licensed under the MIT License, which allows you to use, modify, and distribute the code for both commercial and non-commercial purposes. However, please note that this repository may contain code from other sources, so make sure to check and comply with their respective licenses.
