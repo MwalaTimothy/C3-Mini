@@ -8,25 +8,18 @@ Adafruit_SSD1306 display(OLED_RESET);
 
 Adafruit_SGP30 sgp30; 
 
-void setup()
-{
-Wire.begin(8,10);
+void setup() {
+  Wire.begin(8, 10);
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   
-
-  if (sgp30.begin() == false)
-  {
-
-    while (1)
+  if (!sgp30.begin()) {
+    while (1) {
       ;
+    }
   }
-
-
 }
 
-void loop()
-{
-
+void loop() {
   delay(1000);
 
   display.clearDisplay();
@@ -34,35 +27,28 @@ void loop()
   display.setCursor(40, 10);
   display.setTextColor(WHITE);
 
-  if (sgp30.IAQmeasure())
-  {
-
+  if (sgp30.IAQmeasure()) {
     display.println("CO2: ");
     display.setTextSize(1);
     display.setCursor(75, 10);
     display.println(sgp30.eCO2);
 
     display.setTextSize(1);
-     display.setCursor(40, 23);
+    display.setCursor(40, 23);
     display.println("TVOC: ");
 
     display.setTextSize(1);
-     display.setCursor(75, 23);
+    display.setCursor(75, 23);
     display.println(sgp30.TVOC);
 
     display.display();
   }
-  else
-  {
+  else {
     display.println("Error!");
     display.display();
 
-    while (1)
-    {
+    while (1) {
       ;
     }
-    
   }
-  
-  
 }
