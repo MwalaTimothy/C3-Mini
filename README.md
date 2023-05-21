@@ -5,31 +5,9 @@ This repository contains files for an environmental sensor using the C3-mini, a 
 - environmental sensing in industrial settings.
 
 ## Getting Started
-To get started with the C3-mini environmental sensor, follow these steps:
+To get started with the C3-mini project you need a MODUAR SENSOR SELECTION Box 
+- ![image](https://user-images.githubusercontent.com/74060530/232207212-4e855820-2f56-4385-9eb0-b2f23c969ee6.png)
 
-## Prerequisites
-You will need the following components to build the environmental sensor:
-
-- C3-mini microcontroller board
-- Environmental sensor module (e.g., DHT11, DHT22, SHT30, etc.)
-- A dual base adapter or a TRIPLER adapter
-- 0.66 OLED DISPLAY
-- USB cable for programming and power supply
-- Arduino IDE or compatible software for programming the C3-mini
-Wiring
-Connect the environmental sensor module to the C3-mini according to its pinout diagram. For example, if you are using a DHT11 sensor, you can connect it as follows:
-
-
-C3-mini      DHT11
---------------------
-3.3V          VCC
-GND           GND
-D2            DATA
-Installing Libraries
-If your environmental sensor module requires a specific library, make sure to install it in your Arduino IDE or compatible software. You can usually find the library in the library manager or download it from the manufacturer's website.
-
-Uploading the Code
-Upload the code provided in this repository to the C3-mini using the Arduino IDE or compatible software. The code includes examples for reading environmental data from the sensor and displaying it on the 0.66 OLED display
 ## Usage
 Once the code is uploaded and the wiring is correct, you can power on the C3-mini and start receiving environmental data from the sensor. You can customize the code to suit your specific needs, such as adjusting the sensor readings interval, adding additional features, or integrating with other systems.
 
