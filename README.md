@@ -5,7 +5,7 @@ This repository contains files for an environmental sensor using the C3-mini, a 
 - environmental sensing in industrial settings.
 
 ## Getting Started
-To get started with the C3-mini project you need a MODUAR SENSOR SELECTION Box www.carenuity.com
+To get started with the C3-mini project you need a MODULAR SENSOR SELECTION Box www.carenuity.com
 - ![image](https://user-images.githubusercontent.com/74060530/232207212-4e855820-2f56-4385-9eb0-b2f23c969ee6.png)
 
 ## Usage
