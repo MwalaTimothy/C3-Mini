@@ -10,7 +10,7 @@ BH1750 light(0x23);
 
 void setup() {
   Serial.begin(115200);
-  Wire.begin(8, 10);
+  Wire.begin();
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
 }
 
